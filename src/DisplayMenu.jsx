@@ -6,12 +6,12 @@ export default function DisplayMenu( {menu} ) {
  
 
   return (
-   <>
-   {menu.map((item) => (
+   <div className="cool-grid">
+    {menu.map((item) => (
     <Dish key={item.id} item={item} />
    ))}
-   </>
-  );
+   </div>
+    );
 }
 
 
